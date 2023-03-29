@@ -6,7 +6,7 @@ export const dbConnect = () => {
         () => console.log("mongodb connected"),
         (err) => console.log(err)
     )
-    For mongodb local
+//     For mongodb local
 //     connect("mongodb://127.0.0.1:27017").then(
 //         () => console.log("mongodb connected"),
 //         (err) => console.log(err)
